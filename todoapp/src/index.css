@@ -1,0 +1,81 @@
+body {
+  padding: 30px;
+ 
+}
+
+.app {
+  max-width: 500px;
+  background-color: aliceblue;
+  display: block;
+  margin: auto;
+  
+}
+.app .search {
+  width: 250px;
+  display: flex;
+  /* justify-content:space-between; */
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 19px;
+  margin-left: 24px;
+
+}
+
+.app .search input {
+  width: 250px;
+  padding-left: 19px;
+  border-radius: 8px;
+
+}
+
+.app .search button{
+  min-width: 60px ;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+}
+
+.app .content label{
+  border-bottom: 2px solid gray;
+  width: 100px;
+  margin-left: 24px;
+  
+  
+}
+
+.item-value {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+
+
+
+
+.item{
+  width: 250px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-left: 30px;
+  margin-bottom: 20px;
+
+
+}
+
+
+.app .content .item .item-value {
+  width: 250px;
+  display: flex;
+  flex-direction: row;
+  /* justify-content: space-between; */
+
+}
+
+.item_delete {
+  min-width: 100px;
+}
